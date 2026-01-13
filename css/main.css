@@ -1,0 +1,45 @@
+@import url("https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css");
+
+:root {
+  --pico-font-family: "Inter", system-ui, sans-serif;
+  --pico-line-height: 1.6;
+}
+
+body {
+  min-height: 100vh;
+}
+
+main {
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 960px) {
+  main {
+    grid-template-columns: minmax(0, 3fr) minmax(0, 1fr);
+  }
+}
+
+#article-list article {
+  border-bottom: 1px solid var(--pico-muted-border-color);
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#article-list article:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+[data-ad-slot] {
+  min-height: 120px;
+  border: 1px dashed var(--pico-muted-border-color);
+  padding: 1rem;
+  text-align: center;
+  color: var(--pico-muted-color);
+}
+
+#article-content p {
+  margin-bottom: 1rem;
+}

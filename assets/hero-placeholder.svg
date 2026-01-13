@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Hero image">
+  <rect width="1200" height="675" fill="#e2e8f0"/>
+  <rect x="80" y="80" width="1040" height="515" rx="32" fill="#94a3b8"/>
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="48" fill="#0f172a">Hero media</text>
+</svg>
